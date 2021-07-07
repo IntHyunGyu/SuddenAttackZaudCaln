@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.test {
+	margin: 0 auto;
+	display: none;
+}
+
+.bg {
+	width: 100px;
+	height: 100px;
+	background-image: url(img/clan.jpg);
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	border-radius: 20px;
+	width: 100%;
+	height: 200px;
+	background: #ddd;
+	position: relative;
+}
+
+header:hover {
+	transition: 0.7s;
+	background: #000;
+}
+
+header:hover .test {
+	transition: 0.7s;
+	display: block;
+}
+
+header:hover .rigthHeader div {
+	transition: 0.7s;
+	background: #fff;
+}
+
+header:hover .leftHeader span {
+	color: #fff;
+}
+
+header .leftHeader {
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	width: 100px;
+}
+
+header .leftHeader span {
+	font-size: 40px;
+}
+
+header .rigthHeader {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .rigthHeader div {
+	width: 100px;
+	text-align: center;
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+header .rigthHeader div:hover {
+	color: #fff;
+	background: #000;
+}
+
+
+#clanInfo {
+	width: 100%;
+	height: 850px;
+	display: flex;
+}
+
+#clanInfo img {
+	width: 600px;
+	height: 100%;
+}
+
+
+#clanInfo .clanInfoText {
+	width: 600px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#clanInfo .clanInfoText p {
+	text-align: center;
+	font-size: 25px;
+}
+
+
