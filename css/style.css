@@ -166,19 +166,19 @@ header .rigthHeader li:hover {
 
 #joinClan {
 	width: 100%;
-	height: 500px;
+	height: 360px;
 	border-radius: 10px;
 	border: 1px solid black;
 	display: flex;
 }
 
 #joinClan .discordbox {
-	width: 350px;
-	height: 100%;
+	width: 640px;
+	height: 360px;
 }
 
 #joinClan .otherSns {
-	width: 850px;
+	width: 560px;
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -187,8 +187,8 @@ header .rigthHeader li:hover {
 }
 
 #joinClan .otherSns div {
-	width: 600px;
-	height: 100px;
+	width: 560px;
+	height: 80px;
 	flex : 1;
 	display: flex;
 	justify-content: center;
